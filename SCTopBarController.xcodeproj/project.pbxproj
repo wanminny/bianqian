@@ -15,6 +15,11 @@
 		25BED7091A89E8B3006F0710 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 25BED7081A89E8B3006F0710 /* Images.xcassets */; };
 		25BED70C1A89E8B3006F0710 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 25BED70A1A89E8B3006F0710 /* LaunchScreen.xib */; };
 		25BED7181A89E8B3006F0710 /* SCTopBarControllerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 25BED7171A89E8B3006F0710 /* SCTopBarControllerTests.m */; };
+		BE41B3A81C8BD77E00D386C3 /* TestViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BE41B3A71C8BD77E00D386C3 /* TestViewController.m */; };
+		BE41B3AB1C8BD7BB00D386C3 /* Test2ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BE41B3AA1C8BD7BB00D386C3 /* Test2ViewController.m */; };
+		BE41B3AE1C8BD83E00D386C3 /* ShopViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BE41B3AD1C8BD83E00D386C3 /* ShopViewController.m */; };
+		BE41B3B11C8BD85400D386C3 /* NewsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BE41B3B01C8BD85400D386C3 /* NewsViewController.m */; };
+		BE41B3B41C8BD87500D386C3 /* SocialViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BE41B3B31C8BD87500D386C3 /* SocialViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -43,6 +48,16 @@
 		25BED7111A89E8B3006F0710 /* SCTopBarControllerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SCTopBarControllerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		25BED7161A89E8B3006F0710 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		25BED7171A89E8B3006F0710 /* SCTopBarControllerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SCTopBarControllerTests.m; sourceTree = "<group>"; };
+		BE41B3A61C8BD77E00D386C3 /* TestViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestViewController.h; sourceTree = "<group>"; };
+		BE41B3A71C8BD77E00D386C3 /* TestViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestViewController.m; sourceTree = "<group>"; };
+		BE41B3A91C8BD7BB00D386C3 /* Test2ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Test2ViewController.h; sourceTree = "<group>"; };
+		BE41B3AA1C8BD7BB00D386C3 /* Test2ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Test2ViewController.m; sourceTree = "<group>"; };
+		BE41B3AC1C8BD83E00D386C3 /* ShopViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ShopViewController.h; sourceTree = "<group>"; };
+		BE41B3AD1C8BD83E00D386C3 /* ShopViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ShopViewController.m; sourceTree = "<group>"; };
+		BE41B3AF1C8BD85400D386C3 /* NewsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NewsViewController.h; sourceTree = "<group>"; };
+		BE41B3B01C8BD85400D386C3 /* NewsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NewsViewController.m; sourceTree = "<group>"; };
+		BE41B3B21C8BD87500D386C3 /* SocialViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SocialViewController.h; sourceTree = "<group>"; };
+		BE41B3B31C8BD87500D386C3 /* SocialViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SocialViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,6 +81,16 @@
 		25BED6EF1A89E8B2006F0710 = {
 			isa = PBXGroup;
 			children = (
+				BE41B3AC1C8BD83E00D386C3 /* ShopViewController.h */,
+				BE41B3AD1C8BD83E00D386C3 /* ShopViewController.m */,
+				BE41B3AF1C8BD85400D386C3 /* NewsViewController.h */,
+				BE41B3B01C8BD85400D386C3 /* NewsViewController.m */,
+				BE41B3B21C8BD87500D386C3 /* SocialViewController.h */,
+				BE41B3B31C8BD87500D386C3 /* SocialViewController.m */,
+				BE41B3A91C8BD7BB00D386C3 /* Test2ViewController.h */,
+				BE41B3AA1C8BD7BB00D386C3 /* Test2ViewController.m */,
+				BE41B3A61C8BD77E00D386C3 /* TestViewController.h */,
+				BE41B3A71C8BD77E00D386C3 /* TestViewController.m */,
 				25BED6FA1A89E8B3006F0710 /* SCTopBarController */,
 				25BED7141A89E8B3006F0710 /* SCTopBarControllerTests */,
 				25BED6F91A89E8B3006F0710 /* Products */,
@@ -235,7 +260,12 @@
 				25BED7041A89E8B3006F0710 /* ViewController.m in Sources */,
 				25BED7011A89E8B3006F0710 /* AppDelegate.m in Sources */,
 				25BED6FE1A89E8B3006F0710 /* main.m in Sources */,
+				BE41B3B41C8BD87500D386C3 /* SocialViewController.m in Sources */,
+				BE41B3B11C8BD85400D386C3 /* NewsViewController.m in Sources */,
+				BE41B3AB1C8BD7BB00D386C3 /* Test2ViewController.m in Sources */,
 				25429A301AC02AA800C03DBE /* SCTopBarController.m in Sources */,
+				BE41B3A81C8BD77E00D386C3 /* TestViewController.m in Sources */,
+				BE41B3AE1C8BD83E00D386C3 /* ShopViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
